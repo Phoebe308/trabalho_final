@@ -21,9 +21,9 @@ int main() {
 
     //embaralha os 16 valores
     for (i = 0; i < 16; i++) {
-        int r = rand() % 16;
+        int r = rand() % 16;//gera um número inteiro aleatório (rand) entre 0 e 15 (% 16)
         int temp = valores[i];
-        valores[i] = valores[r];
+        valores[i] = valores[r];//troca os valores das posições i e r, embaralhando-os
         valores[r] = temp;
     }
 
