@@ -1,3 +1,5 @@
+//Grupo: Caio Augusto, Danilo Lopes e Phoebe Regina//
+
 #include <stdio.h>
 #include <stdlib.h> //inclui a biblioteca que possui as funções rand e o srand
 #include <time.h> //usada para inicializar a geração de números aleatórios
